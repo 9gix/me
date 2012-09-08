@@ -64,7 +64,7 @@ STATICFILES_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     os.path.join(PROJECT_DIR, 'static'),
-    os.path.join(PROJECT_DIR, 'static', 'mingus'),
+    os.path.join(PROJECT_DIR, 'static', 'me'),
 )
 
 # Login paths
