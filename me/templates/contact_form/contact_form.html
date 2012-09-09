@@ -12,6 +12,7 @@
 <p>{% trans "Get in touch." %}</p>
 
 <form method="POST" action=".">
+  {% csrf_token %}
 
   {% if form.errors %}
   <div id="form-error">
